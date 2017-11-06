@@ -21,7 +21,7 @@ const menu = (
 
     </Menu>
 );
-export default class Login extends React.Component {
+export default class Main extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -95,11 +95,12 @@ export default class Login extends React.Component {
                             <Menu.Item key="0" disabled style={{cursor: "pointer"}}>
                                 <span style={{fontSize: "20px", color: "#ffffff"}}>亨亨养车管理系统</span>
                             </Menu.Item>
-                            <Menu.Item key="1">系统</Menu.Item>
-                            <Menu.Item key="2">商城</Menu.Item>
-                            <Menu.Item key="3">运营</Menu.Item>
-                            <Menu.Item key="4">微信</Menu.Item>
-                            <Menu.Item key="5">APP</Menu.Item>
+                            <Menu.Item key="1">生成</Menu.Item>
+                            <Menu.Item key="2">系统</Menu.Item>
+                            <Menu.Item key="3">商城</Menu.Item>
+                            <Menu.Item key="4">运营</Menu.Item>
+                            <Menu.Item key="5">微信</Menu.Item>
+                            <Menu.Item key="6">APP</Menu.Item>
                         </Menu>
                     </Col>
                     <Col span="4">
@@ -199,4 +200,4 @@ export default class Login extends React.Component {
         );
     }
 }
-ReactDOM.render(<Login/>, document.getElementById('root'));
+ReactDOM.render(<Main/>, document.getElementById('root'));

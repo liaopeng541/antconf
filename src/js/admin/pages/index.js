@@ -84,7 +84,7 @@ export default class Index extends React.Component {
                 </div>
 
 
-                <Table bordered={true} size="midden" rowSelection={{onChange: this.changecheck.bind(this)}}
+                <Table  size="midden" rowSelection={{onChange: this.changecheck.bind(this)}}
                        dataSource={dataSource} columns={columns} style={{margin: "0px 5px 0px 5px"}}/>
             </div>
         );
